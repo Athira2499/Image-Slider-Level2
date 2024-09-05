@@ -116,3 +116,42 @@ body{
     cursor: pointer;
 }
 /*level 2 css ends*/
+
+/*responsive part*/
+@media(max-width: 768px){
+    body{
+        padding: 20px;
+        padding-bottom: 20px;
+    }
+    #logo{
+        padding-left: 7rem;
+        width: 50%;
+        height: 20vh;
+        
+    }
+    .page-header{
+        flex-direction: column;
+        /*margin: 3rem;*/
+    }
+    .project-title{
+        font-size: 30px;
+        text-align: center;
+    }
+    .carousel-slide{
+        height: calc(100vh - 319px);
+    }
+    .popup-content{
+        margin: 22% 1% 1% 5%;
+        width: 80%;
+        left: 1rem;
+        right: 1rem;
+    }
+    .close{
+        position: absolute;
+        top: 250px;
+        right: 70px;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+}
+}
